@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="discription" content="html lesson">
+    <meta name="keyword"    content="html lesson">
+    <meta name="author" content="jml01">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html lesson</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-con">
+</head>     
+<body>
+   <!--heading tag--> 
+   <h1>heading 1</h1> 
+   <h2>heading 2</h2>
+   <h3>heading 3</h3>
+   <h4>heading 4</h4>
+   <h5>heading 5</h4>
+   <h6>heading 6</h6>
+
+   <!--paragraph tag-->
+   <p><em>Lorem ipsum dolor</em>, <strong>amet consectetur adipisicing elit</strong>. Fuga illo, <mark>necessitatibus esse cum,</mark> quia ad eius eos, <s>reprehenderit quas magnam</s> accusantium fugit? Numquam amet, facere quo nihil voluptates officia minima quis. Temporibus assumenda autem repellendus ea repellat molestias natus. Enim suscipit aut <sup>nesciunt quae</sup> beatae non obcaecati <sub>perferendis</sub> ipsa placeat numquam, officia culpa veniam dolorum ipsum praesentium impedit officiis, maxime eaque velit! <span style=color:red>Harum rerum ad ipsum esse iure dicta,</span> ea <a href="index.html">distinctio vitae</a> reprehenderit ullam quis in veniam nobis aliquid autem?</p>
+
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam repellendus sequi assumenda, eaque ad aperiam natus illo et odio laborum praesentium libero est commodi reprehenderit aspernatur eius, tempore iusto explicabo nobis numquam similique? Amet quasi nemo assumenda, ratione eligendi quis vitae architecto voluptate officiis harum illo officia est unde ex quidem, totam hic delectus perferendis non commodi. Aliquid, officia?</p>
+
+   <!--list-->
+   <ul> <!--unordered list-->
+       <li>list 1</li>
+       <li>list 2</li>
+       <li>list 3</li>
+       <li>list 4</li>
+   </ul>
+
+   <ol> <!--ordered list-->
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+   </ol>
+
+   <!--tables-->
+   <table>
+       <thead>
+           <tr> <!--table row-->
+               <th>name</th> <!--table head-->
+               <th>age</th>
+               <th>email</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td>don juan</td>
+               <td>30</td>
+               <td>don.juan@email.com</td>
+           </tr>
+           <tr>
+                <td>don pedro</td>
+                <td>31</td>
+                <td>don.pedro@email.com</td>
+            </tr>
+            <tr>
+                <td>don filipe</td>
+                <td>32</td>
+                <td>don.filipe@email.com</td>
+            </tr>
+        </tbody>
+   </table>
+
+   <!--form-->
+   <br> <!--break-->
+   <hr><!--horizontal rule-->
+   <br>
+        <form action="process.php" method="post" enctype="application/x-www-form-urlencoded">
+            <div>
+                <label>first name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="put your first name here" required> <!--you can put (required) if you want to required to fill-up the placeholder they cannot function the form if they cannot put the requirements-->
+            </div>
+            <br>
+            <div>  
+                <label>last name</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <br>
+            <div>  
+                <label>email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>  
+                <label>password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <br>
+            <div>  
+                <label>date</label>
+                <input type="date" name="date" id="date">
+        
+                <label>time</label>
+                <input type="time" name="time" id="time">
+            </div>
+            <br>
+            <div>  
+                <label>color picker</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <br>
+            <div>  
+                <label>message</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="put your comments here"></textarea>
+            </div>
+            <br>
+            <div>  
+                <label>gender</label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="fileupload">file upload</label>
+                    <input type="file" name="file" id="file uplaod" accept="image/*" multiple>
+            </div>
+            <br>
+                    <input type="submit" name="submitform" id="submitform" value="submit form">
+                    <button type="button">button</button> <!--you can used click or reset to remove all fill-up form if there is a mistake-->
+        </form>
+
+        <!--image-->
+        <a href="img/favicon.png"> <!--you can used this tag if you to clicable your image,video or etc...-->
+            <img src="img/favicon.png" alt="default image" width="150px">
+        </a>
+
+        <!--quotation-->
+        <blockquote cite="www.wiki.com"> <!--you can used the value of (cite) if you want to fined by user were did you get this source (lorem).-->
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem temporibus earum animi, placeat aut corporis consequatur minima ab nobis iste assumenda, vel labore, voluptatum delectus ipsa nihil officia adipisci beatae quam dolores error velit eveniet laudantium. Quisquam hic dolorem quasi asperiores unde in, officia optio, fuga, assumenda fugiat sed deleniti tempora nobis rem quam expedita id cumque vitae rerum tempore?
+        </blockquote>
+
+        <!--abbreviation-->
+        <br>
+            <P>The <abbr title="world wide web">www</abbr> is awesome site</P>
+            <p> <cite>html site</cite> is created by jml </p>
+
+   <div style="margin-top: 500px;"> </div> <!--putting a margin-top to make additional space on below-->
+</body>
+</html>
